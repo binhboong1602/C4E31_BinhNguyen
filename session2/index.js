@@ -1,4 +1,4 @@
-  	Answer the questions:
+  	/*Answer the questions:
 		1: boolean là một kiểu dữ liệu dùng để mô tả một trong hai giá trị true (đúng) hoặc false (sai)
 		Ví dụ về kiểu boolean :
 		10 > 9 // trả về true
@@ -48,4 +48,57 @@
 		 lt(30)
 		 rt(90)
 		 };
+		Bai 2
+		
+			color("blue");
+			rt(30);
+			for(let i=0;i<17;i++){
+			fd(100);
+			if(i<2){
+			rt(120);
+			};
+			else if(i<7){
+			rt(72);
+			}
+
+			else if(i<11){
+			 color("red");
+			 rt(90);
+			}
+			else{
+			 rt(60);
+			}
+			}
+			clear();
+
 		   
+
+	Serious exercises:
+
+	let height= prompt("Nhập vào height(cm) ?");
+	let weight= prompt("Nhập vào weight(kg) ?");
+	let conversion = height/100;
+	let BMI= (weight)/(conversion*conversion);
+		if(BMI<=16){
+		    console.log("Severely Underweigh")
+		}
+		else if(BMI<=18.5){
+		    console.log("Underweigh")
+		}
+		else if(BMI<=25){
+		    console.log("Normal")
+		}
+		else if(BMI<=30){
+		    console.log("Overweigh")
+		}
+		else{
+		    console.log("Obese")
+		}
+		2.
+		let n= prompt("Nhập n n :");
+		let result=1;
+		for (let i=1; i<=n; i++){
+		    result=result*i;
+		}
+		console.log(result;
+		*/
